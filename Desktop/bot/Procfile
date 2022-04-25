@@ -1,1 +1,0 @@
-worker: python bottg.py
