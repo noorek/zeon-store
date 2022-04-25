@@ -1,0 +1,68 @@
+.collections__heading {
+    text-align: center;
+    margin: 44px 0 18px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.collections__ending {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 8px 38.5px;
+
+    background: #1D1D1B;
+
+    margin-top: 16px;
+    margin-bottom: 56px;
+
+}
+
+.collections_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 8px;
+
+    .collections__item {
+        text-align: center;
+        position: relative;
+        h2 {
+            line-height: 18px;
+            font-weight: 500;
+            color: white;
+            font-size: 15px;
+            top: 300px;
+            width: 100%;
+            position: absolute;
+        }
+        a {
+            display: flex;
+            color: white;
+            align-items: center;
+            padding: 13.5px 84.5px;
+            background: black;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            width: 101%;
+            transition: all .3s ease-in;
+
+            &:hover {
+                background: white;
+                color: black;
+            }
+
+            svg {
+                transform: translateX(15px);
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

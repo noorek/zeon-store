@@ -1,0 +1,33 @@
+.swiper {
+    margin-top: 11px;
+    padding-bottom: 30px !important;
+    width: 1168px;
+    
+    margin: 0 auto;
+    
+    @media screen and (max-width: 1180px) {
+        width: 90%;
+
+        .swiperslide {
+            margin: 0 auto;
+            img {
+                width: 120%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.container {
+    .myswiper {
+        width: 100%;
+        .swiperslide {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
